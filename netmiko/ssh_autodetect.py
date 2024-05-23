@@ -314,6 +314,12 @@ SSH_MAPPER_DICT = {
         "priority": 99,
         "dispatch": "_autodetect_std",
     },
+    "Moxa": {
+        "cmd": "show version",
+        "search_patterns": [r"Moxa"],
+        "priority": 99,
+        "dispatch": "_autodetect_std",
+    },
 }
 
 # Sort SSH_MAPPER_DICT such that the most common commands are first
